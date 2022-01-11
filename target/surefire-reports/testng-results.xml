@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="15074" started-at="2022-01-10T14:58:01Z" finished-at="2022-01-10T14:58:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationcraft.delivery.runners.google.GRunner@18be83e4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="15074" started-at="2022-01-10T14:58:01Z" finished-at="2022-01-10T14:58:16Z">
+      <class name="automationcraft.delivery.runners.google.GRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:automationcraft.delivery.runners.google.GRunner@18be83e4]" name="setUpClass" is-config="true" duration-ms="1838" started-at="2022-01-10T14:58:01Z" finished-at="2022-01-10T14:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationcraft.delivery.runners.google.GRunner@18be83e4]" name="runScenario" duration-ms="7140" started-at="2022-01-10T14:58:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-10T14:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Standard Search One"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Google Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationcraft.delivery.runners.google.GRunner@18be83e4]" name="runScenario" duration-ms="2844" started-at="2022-01-10T14:58:10Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-10T14:58:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Standard Search Two"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Google Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:automationcraft.delivery.runners.google.GRunner@18be83e4]" name="tearDownClass" is-config="true" duration-ms="3204" started-at="2022-01-10T14:58:13Z" finished-at="2022-01-10T14:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- automationcraft.delivery.runners.google.GRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
