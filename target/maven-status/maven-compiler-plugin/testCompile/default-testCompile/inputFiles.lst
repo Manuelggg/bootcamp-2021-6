@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\engine\selenium\SeleniumBase.java
 C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\engine\selenium\DriverFactory.java
 C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\delivery\runners\google\GRunner.java
@@ -5,3 +6,12 @@ C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\testcreation\g
 C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\engine\bdd\ApplicationHooks.java
 C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\testcreation\google\pages\GooglePages.java
 C:\Users\Manuel.Guzman.old\bootcamp\src\test\java\automationcraft\engine\properties\LoadProperties.java
+=======
+C:\bootcamp-fix\src\test\java\automationcraft\testcreation\google\pages\GooglePages.java
+C:\bootcamp-fix\src\test\java\automationcraft\engine\selenium\DriverFactory.java
+C:\bootcamp-fix\src\test\java\automationcraft\engine\properties\LoadProperties.java
+C:\bootcamp-fix\src\test\java\automationcraft\testcreation\google\steps\GoogleSearchSteps.java
+C:\bootcamp-fix\src\test\java\automationcraft\delivery\runners\google\GRunner.java
+C:\bootcamp-fix\src\test\java\automationcraft\engine\bdd\ApplicationHooks.java
+C:\bootcamp-fix\src\test\java\automationcraft\engine\selenium\SeleniumBase.java
+>>>>>>> 1f28f718befd8de9f4679c60a79eafd7650af036

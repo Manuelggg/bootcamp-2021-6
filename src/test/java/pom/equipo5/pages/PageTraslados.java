@@ -12,7 +12,7 @@ public class PageTraslados extends SeleniumBaseE5 {
         super(driver);
     }
 
-    //Atributos
+    //Atributos TC001_TrasladoAuto
 
     By Traslados = By.xpath("//label[.='Traslados']");
     By EntraAeropuerto = By.xpath("//input[@placeholder='Ingresa un aeropuerto']");
@@ -25,12 +25,13 @@ public class PageTraslados extends SeleniumBaseE5 {
     By BotonBuscar = By.xpath("//em[.='Buscar']");
     By Verificar = By.xpath("//span[.='Auto Estándar']");
 
-    //By para las esperas
-    By recomendaciones_aeropuerto = By.xpath("//ul[@class='ac-group-items']");
-    By recomendaciones_hotel = By.xpath("//*[@class='ac-wrapper -desktop -facet -show']//ul");
+    //Atributos TC002_TrasladoSinResultados
+    By Verificar2 = By.xpath("//span[.='¡Ups! No hay traslados disponibles para esta fecha.']");
 
+    //Atributos TC003_TrasladoMinivan
+    By Verificar3 = By.xpath("//span[.='Minivan Estándar']");
 
-    //funciones
+    //funciones TC001_TrasladoAuto
 
     public void SeccionDeTraslados(){
         clickear(Traslados);
@@ -42,7 +43,6 @@ public class PageTraslados extends SeleniumBaseE5 {
     public void SeleccionarUnAeropuerto(){
         clickear(ListaDinamica);
     }
-
     public void IngresoUnHotel(){
     teclear(HotelDestino,"tarij");
     }
@@ -60,11 +60,29 @@ public class PageTraslados extends SeleniumBaseE5 {
     public void Buscar(){
         clickear(BotonBuscar);
     }
-
     public void ValidarText(){
         validacionText(Verificar, "Auto Estándar");
     }
 
+    //funciones TC002_TrasladoSinResultados
 
+    public void IngresoUnHotel2(){
+        teclear(HotelDestino,"iqui");
+    }
+    public void ValidarText2(){
+        validacionText(Verificar2, "¡Ups! No hay traslados disponibles para esta fecha.");
+    }
+
+    //funciones TC003_TrasladoMinivan
+    public void PasajerosAdultos3(){
+        clickear(SeleccionPasajeros);
+        for (int i = 0; i < 12; i++) {
+            clickear(IconoSumaPasajeroAdulto);
+        }
+
+    }
+    public void ValidarText3(){
+        validacionText(Verificar3, "Minivan Estándar");
+    }
 
 }
