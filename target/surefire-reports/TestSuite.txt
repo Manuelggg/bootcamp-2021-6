@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 13.661 s <<< FAILURE! - in TestSuite
+runScenario(automationcraft.delivery.runners.PRunner)  Time elapsed: 4.135 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "que estoy la url "https://www.paris.cl/iphone-11-64gb-negro%C2%A0%C2%A0-486146999.html#q=iphone&start=1"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("que estoy la url {string}")
+public void que_estoy_la_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(automationcraft.delivery.runners.mguzman.PRunner)  Time elapsed: 0.152 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "que estoy la url "https://www.paris.cl/iphone-11-64gb-negro%C2%A0%C2%A0-486146999.html#q=iphone&start=1"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("que estoy la url {string}")
+public void que_estoy_la_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(automationcraft.delivery.runners.PRunner)  Time elapsed: 2.516 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "que estoy la url "https://www.paris.cl/iphone-11-64gb-negro%C2%A0%C2%A0-486146999.html#q=iphone&start=1"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("que estoy la url {string}")
+public void que_estoy_la_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(automationcraft.delivery.runners.mguzman.PRunner)  Time elapsed: 0.14 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "que estoy la url "https://www.paris.cl/iphone-11-64gb-negro%C2%A0%C2%A0-486146999.html#q=iphone&start=1"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("que estoy la url {string}")
+public void que_estoy_la_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(automationcraft.delivery.runners.PRunner)  Time elapsed: 2.386 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "que estoy la url "https://www.paris.cl/iphone-11-64gb-negro%C2%A0%C2%A0-486146999.html#q=iphone&start=1"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("que estoy la url {string}")
+public void que_estoy_la_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(automationcraft.delivery.runners.mguzman.PRunner)  Time elapsed: 2.542 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step "que estoy la url "https://www.paris.cl/iphone-11-64gb-negro%C2%A0%C2%A0-486146999.html#q=iphone&start=1"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("que estoy la url {string}")
+public void que_estoy_la_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
